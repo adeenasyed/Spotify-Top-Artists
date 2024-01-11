@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test List",
+      "setup": "",
+      "run": "gradle run --args \"list 20 100000\"",
+      "input": "",
+      "output": ".*Bad Bunny 6114.*AlunaGeorge 1312.*",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test TreeMap",
+      "setup": "",
+      "run": "gradle run --args \"tree 20 100000\"",
+      "input": "",
+      "output": ".*Bad Bunny 6114.*AlunaGeorge 1312.*",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test HashMap",
+      "setup": "",
+      "run": "gradle run --args \"hash 20 100000\"",
+      "input": "",
+      "output": ".*Bad Bunny 6114.*AlunaGeorge 1312.*",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
