@@ -1,4 +1,4 @@
-# MSCI 240 Assignment 3
+# MSCI 240 (Data Structures & Algorithms) Assignment 3
 
 ### Data
 Dataset: https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data
